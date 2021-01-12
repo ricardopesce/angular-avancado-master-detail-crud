@@ -20,7 +20,7 @@ export class CategoryService {
   	return this.http.get(this.apiPath).pipe(
   		catchError(this.handleError),
   		map(this.jsonDataToCategories)
-  		)
+  	)
   }
 
   getById(id: number): Observable<Category> {
@@ -65,7 +65,7 @@ export class CategoryService {
   	return categories;
   }
 
-  private jsonDataToCategory(jsonData: any): Observable<any> {
+  private jsonDataToCategory(jsonData: any): Category {
   	return jsonData as Category;
   }
 
