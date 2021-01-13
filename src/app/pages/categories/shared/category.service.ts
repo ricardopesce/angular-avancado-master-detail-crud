@@ -1,4 +1,4 @@
-import { Injectable } from '@angular/core';
+import { Injectable } from "@angular/core";
 import { HttpClient, HttpHeaders} from "@angular/common/http";
 
 import { Observable, throwError } from "rxjs";
@@ -12,7 +12,7 @@ import { Category } from "./category.model";
 })
 export class CategoryService {
 
-	private apiPath: string="api/categories";
+	private apiPath: string = "api/categories";
 
   constructor(private http: HttpClient) { }
 
@@ -50,7 +50,8 @@ export class CategoryService {
   }
 
   delete(id: number): Observable<any> {
-  	const url = '${this.apiPath}/${id}';
+  	//const url = '${this.apiPath}/${id}';
+    const url = this.apiPath + "/" + id;
   	return this.http.delete(url).pipe(
   		catchError(this.handleError),
   		map(() => null)
