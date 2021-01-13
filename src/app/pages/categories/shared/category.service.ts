@@ -1,10 +1,10 @@
-import { Injectable } from "@angular/core";
-import { HttpClient, HttpHeaders} from "@angular/common/http";
+import { Injectable } from '@angular/core';
+import { HttpClient, HttpHeaders} from '@angular/common/http';
 
-import { Observable, throwError } from "rxjs";
-import { map, catchError, flatMap } from "rxjs/operators";
+import { Observable, throwError } from 'rxjs';
+import { map, catchError, flatMap } from 'rxjs/operators';
 
-import { Category } from "./category.model";
+import { Category } from './category.model';
 
 
 @Injectable({
@@ -12,7 +12,7 @@ import { Category } from "./category.model";
 })
 export class CategoryService {
 
-	private apiPath: string = "api/categories";
+	private apiPath: string = 'api/categories';
 
   constructor(private http: HttpClient) { }
 
@@ -24,7 +24,7 @@ export class CategoryService {
   }
 
   getById(id: number): Observable<Category> {
-  	const url = '${this.apiPath}/${id}';
+  	const url = this.apiPath + '/' + id;
 
   	return this.http.get(url).pipe(
   		catchError(this.handleError),
@@ -41,7 +41,7 @@ export class CategoryService {
   }
 
   update(category: Category): Observable<Category> {
-  	const url = '${this.apiPath}/${category.id}';
+  	const url = this.apiPath + '/' + category.id;
 
   	return this.http.put(url, category).pipe(
   		catchError(this.handleError),
