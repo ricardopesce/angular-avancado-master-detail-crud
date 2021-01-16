@@ -1,0 +1,38 @@
+[33m218296a[m[33m ([m[1;36mHEAD -> [m[1;32mproject-improvements[m[33m)[m HEAD@{0}: commit: adding BreadCrumbComponent
+[33mc91d318[m HEAD@{1}: commit: improving EntryList with BaseResourceListComponent
+[33m53a57c5[m HEAD@{2}: commit: improving CategoryList with BaseResourceListComponent
+[33ma4df659[m HEAD@{3}: commit: adding BaseResourceListComponent
+[33ma3cf131[m HEAD@{4}: commit: refactoring EntryFormComponent
+[33m50b678c[m HEAD@{5}: commit: refactoring CategoryFormComponent
+[33m872ee3e[m HEAD@{6}: commit: adding BaseResourceFormComponent
+[33m860d1f7[m HEAD@{7}: commit: improving EntryService
+[33m749a7c0[m HEAD@{8}: commit: improving BaseResourceService && EntryService && CategoryService
+[33m5245a6c[m HEAD@{9}: commit: improving EntryService with BaseResourceService
+[33m1dbcad5[m HEAD@{10}: commit: improving BaseResourceService && refactoring CategoryService
+[33m75aa709[m HEAD@{11}: commit: adding BaseResourceModel
+[33meec832b[m HEAD@{12}: commit: project restructuring
+[33m5163e96[m[33m ([m[1;32madding-entries-module[m[33m)[m HEAD@{13}: checkout: moving from adding-entries-module to project-improvements
+[33m5163e96[m[33m ([m[1;32madding-entries-module[m[33m)[m HEAD@{14}: commit: adding association between Entry and Category
+[33mf42e569[m HEAD@{15}: commit: improving EntryFormComponent
+[33mfe983e3[m HEAD@{16}: commit: adding EntryFormComponent
+[33m47cacd4[m HEAD@{17}: commit: adding EntryListComponent
+[33m7101c9b[m HEAD@{18}: commit: setting up EntriesModule
+[33m973c3db[m[33m ([m[1;32mmaster[m[33m, [m[1;32mimproving-category-form[m[33m)[m HEAD@{19}: checkout: moving from master to adding-entries-module
+[33m973c3db[m[33m ([m[1;32mmaster[m[33m, [m[1;32mimproving-category-form[m[33m)[m HEAD@{20}: merge improving-category-form: Fast-forward
+[33mcffa03f[m HEAD@{21}: checkout: moving from improving-category-form to master
+[33m973c3db[m[33m ([m[1;32mmaster[m[33m, [m[1;32mimproving-category-form[m[33m)[m HEAD@{22}: commit: completing the category module
+[33m6369ab5[m HEAD@{23}: commit: improving categoryFormComponent
+[33m74b1da1[m HEAD@{24}: commit: adding basic methods to catregory form
+[33mf70c881[m HEAD@{25}: commit: improving category form template
+[33mcffa03f[m HEAD@{26}: checkout: moving from master to improving-category-form
+[33mcffa03f[m HEAD@{27}: commit: improving category-list.component
+[33m8fc484b[m HEAD@{28}: commit: corrections in in-memory-database.ts and in category.service.ts
+[33me801148[m HEAD@{29}: commit: intercepting http requests with angular-in-memory-web-api
+[33m21b836d[m HEAD@{30}: commit: adding category service
+[33mb97e9f8[m HEAD@{31}: commit: adding category model
+[33mb3c60d1[m HEAD@{32}: commit: adding in-memory-database for categories
+[33mc0ad8de[m HEAD@{33}: commit: improving category list component template
+[33med5a633[m HEAD@{34}: commit: adding navbar
+[33m431ffb3[m HEAD@{35}: commit: adding categories module
+[33m3f51f9b[m[33m ([m[1;31morigin/master[m[33m)[m HEAD@{36}: commit: adding base configuration
+[33m7e13345[m HEAD@{37}: commit (initial): initial commit

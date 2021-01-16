@@ -5,13 +5,13 @@
     </li>
 
     <li *ngFor="let item of items" class="breadcrumb-item" [class.active]="isTheLastItem(item)">
-      <span *ngIf="isTheLastItem(item)">{{item.text}}</span>
+      <span *ngIf="isTheLastItem(item)">
+        {{item.text}}
+      </span>
       
-      <a *ngIf="!isTheLastItem(item)" [routerLink]="item.link">{{item.text}}</a>
+      <a *ngIf="!isTheLastItem(item)" [routerLink]="item.link">
+        {{item.text}}
+      </a>
     </li>
-
-
-		<li class="breadcrumb-item"><a routerLink="/categories">Categorias</a></li>
-		<li class="breadcrumb-item active">{{pageTitle}}</li>
 	</ol>
 </nav>
