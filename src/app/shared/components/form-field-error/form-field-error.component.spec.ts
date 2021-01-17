@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { BreadCrumbComponent } from './bread-crumb.component';
+import { FormFieldErrorComponent } from './form-field-error.component';
 
-describe('BreadCrumbComponent', () => {
-  let component: BreadCrumbComponent;
-  let fixture: ComponentFixture<BreadCrumbComponent>;
+describe('FormFieldErrorComponent', () => {
+  let component: FormFieldErrorComponent;
+  let fixture: ComponentFixture<FormFieldErrorComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ BreadCrumbComponent ]
+      declarations: [ FormFieldErrorComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(BreadCrumbComponent);
+    fixture = TestBed.createComponent(FormFieldErrorComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
